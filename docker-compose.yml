@@ -31,11 +31,11 @@ services:
       - ./websocket-service:/usr/src/app
     links:
 #      - redis
-      - identity-service
+#      - identity-service
       - kafka
     depends_on:
 #      - redis
-      - identity-service
+#      - identity-service
       - kafka
     ports:
       - $WEBSOCKET_PORT:80

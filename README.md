@@ -145,10 +145,9 @@ Environment:
 - [x] JWT Authentication
 - [x] Flask app for identity service
 - [x] Create schema for database MySql
-- [ ] Implement Kafka Producer / Consumer
+- [x] Implement Kafka Producer / Consumer
 - [ ] 2 processes 
 	1. sends a message
 	2. prints the received message
-- [ ] Implement Kafka Producer / Customer
 - [ ] Implement Redis
 - [ ] Implement Kubernetes
